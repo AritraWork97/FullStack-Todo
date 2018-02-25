@@ -9,7 +9,8 @@ import { SigninComponent } from './AUTHENTICATION/signin/signin.component';
 import { SignupComponent } from './AUTHENTICATION/signup/signup.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { appRoutingModule } from './app-routing.module';
-import { todoService } from './SERVICES AND MODELS/todo.service'
+import { todoService } from './SERVICES AND MODELS/todo.service';
+import { TodosComponent } from './todos/todos.component'
 
 
 
@@ -20,6 +21,7 @@ import { todoService } from './SERVICES AND MODELS/todo.service'
     SigninComponent,
     SignupComponent,
     LandingpageComponent,
+    TodosComponent,
    
   ],
   imports: [
