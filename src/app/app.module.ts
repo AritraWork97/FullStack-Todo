@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -27,7 +29,8 @@ import { TodosComponent } from './todos/todos.component'
   imports: [
     BrowserModule,
     HttpClientModule,
-    appRoutingModule
+    appRoutingModule,
+    FormsModule
   ],
   providers: [
     todoService

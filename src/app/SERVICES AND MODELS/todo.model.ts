@@ -1,5 +1,5 @@
 class Todo {
-    _id : String;
+    _id : string;
     title : String;
     description : String;
     date : Date;
